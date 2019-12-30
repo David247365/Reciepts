@@ -28,5 +28,15 @@ Brown with cream shade.
 luxurious_lamp_price = 52.15
 
 # Sales Tax
-
 sales_tax = 0.088
+
+# customer total tracker
+customer_one_total = 0
+
+#list of descriptions for purchases 
+customer_one_itemization = ""
+
+# Cutsomer purchased loveseat
+customer_one_total += lovely_loveseat_price
+customer_one_itemization += lovely_loveseat_description
+
