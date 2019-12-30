@@ -40,3 +40,18 @@ customer_one_itemization = ""
 customer_one_total += lovely_loveseat_price
 customer_one_itemization += lovely_loveseat_description
 
+# Cutstomer purchased lamp
+customer_one_total += luxurious_lamp_price
+customer_one_itemization += luxurious_lamp_description
+
+# Taxes added to purchase
+customer_one_tax = customer_one_total * sales_tax
+customer_one_total += customer_one_tax
+
+# Printing total
+print("Customer One Items:")
+print(customer_one_itemization)
+
+print("Cusomter One Total:")
+print(customer_one_total)
+
